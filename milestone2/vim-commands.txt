@@ -1,0 +1,15 @@
+character movement: h(character left), l(character right), k(line up), j(line down)
+
+copy/cut and paste: 
+1. position the cursor where you want to begin copying/cutting
+2. select character/whole line with v/V
+3. move the cursor to the end of what you want to copy/cut
+4. copy/cut with y/d
+5. move to where you want to paste
+6. paste before/after the cursor with P/p
+
+deletion: x(character under), X(character before), current line(dd), to the end of line(D)
+
+search for s: /s + enter(forward), /? + enter(backward), n(repeat forward last search), N(repeat backward last search)
+
+undo/redo: u(undo last command), U(restore last changed line), .(repeat last changes), Control + R(redo last undo)
