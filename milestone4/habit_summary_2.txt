@@ -1,0 +1,13 @@
+Habit 2: Clean file histories in git regularly, especially for large files.
+
+Even if we delete our local file manually, we may still have its history stored. Github recommends not to upload file larger than 50MB. Files larger than 100MB can not be stored on github. To delete a large file permanently from git:
+
+1. Remove history. Run: 
+
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch path-of-remove-file' --prune-empty --tag-name-filter cat -- --all
+
+path-of-remove-file suggests the file to delete, even if the file is already removed from local.
+
+2. Update modification. Run:
+
+git push origin master --force
