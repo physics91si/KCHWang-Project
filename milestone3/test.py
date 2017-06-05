@@ -1,5 +1,15 @@
 import pandas as pd
 
+
+'''
+Some test cases of data_preprocess.ipynb.
+
+Please run data_preprocess.ipynb before test.py so that all data files are generated.
+
+Specifically, training_order_data.csv is too larger to upload on github.
+
+'''
+
 # Import training cluster_map
 df_read = pd.read_csv('data/cluster_map.csv', index_col=0)
 cluster_map_read = df_read.to_dict('dict')['0']
