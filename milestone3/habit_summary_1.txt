@@ -1,0 +1,11 @@
+Habit 1: Print some values in a long loop.
+
+It often takes some time to go over the entire dataset. To get a sense of how fast your program is running, you can print some values once in a while. 
+
+For example:
+
+
+for i in range(1000000):
+  do something here
+  if i % 100000 == 0:
+     print(i / 1000000, 'is finished')
