@@ -1,3 +1,7 @@
 Habit 6: Write and test, write and test...
 
-A good way to debug is to test rather than reading code. We could print some stuff anywhere we want. This is usually faster than reading the code. The cost of testing is very low in programming. Moreover, testing a small part of code before moving on is a good habit. In this way, we can locate one particular bug more easily.
+A good way to debug is to test rather than reading code. 
+
+We could print some stuff anywhere we want. This is usually faster than reading the code. The cost of testing is very low in programming. 
+
+Moreover, testing a small part of code before moving on is a good habit. In this way, we can locate one particular bug more easily.
