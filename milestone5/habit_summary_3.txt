@@ -1,0 +1,11 @@
+Habit 3: Don't reinvent the wheel.
+
+Google before defining our own function. 
+
+It is very likely that we have the same or similar one in a Python package.
+
+For example:
+
+pandas has great functions to deal with time stamp, like to_datetime(), Timedelta(), etc.
+
+We can let them take care of the time stamp format, instead of defining our own functions to deal with the string values. 
