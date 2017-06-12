@@ -1,0 +1,7 @@
+Habit 5: Python is a physical system. Experiment!
+
+We usually need to use some new functions we never met before. 
+
+Instead of reading the whole docstrings carefully, we might want to explore the function by testing with various inputs.
+
+Sometimes printing the size and type of output can be very useful.
